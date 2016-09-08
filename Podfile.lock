@@ -1,0 +1,13 @@
+PODS:
+  - Alamofire (3.4.2)
+  - Canvas (0.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Canvas (~> 0.1.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+
+COCOAPODS: 0.39.0
