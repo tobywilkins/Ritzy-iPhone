@@ -1,1117 +1,623 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>081F3955DC2BB7FFEF508FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2AD82183EE5E2AAA8778BCF9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>527C420E1D81C56900F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C42191D81C56900F2E020</string>
-				<string>527C422E1D81C56A00F2E020</string>
-				<string>527C42391D81C56A00F2E020</string>
-				<string>527C42181D81C56900F2E020</string>
-				<string>C5372FCC6A035A5BA4C345F1</string>
-				<string>EB0628C2EB2BEA3183F74D6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C420F1D81C56900F2E020</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Apparently</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>527C42161D81C56900F2E020</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-					<key>527C422A1D81C56A00F2E020</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>TestTargetID</key>
-						<string>527C42161D81C56900F2E020</string>
-					</dict>
-					<key>527C42351D81C56A00F2E020</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>TestTargetID</key>
-						<string>527C42161D81C56900F2E020</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>527C42121D81C56900F2E020</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>527C420E1D81C56900F2E020</string>
-			<key>productRefGroup</key>
-			<string>527C42181D81C56900F2E020</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>527C42161D81C56900F2E020</string>
-				<string>527C422A1D81C56A00F2E020</string>
-				<string>527C42351D81C56A00F2E020</string>
-			</array>
-		</dict>
-		<key>527C42121D81C56900F2E020</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>527C423D1D81C56A00F2E020</string>
-				<string>527C423E1D81C56A00F2E020</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>527C42131D81C56900F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>527C421D1D81C56900F2E020</string>
-				<string>527C421B1D81C56900F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42141D81C56900F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>965BFFF693F3A3C4B3C8AB7A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42151D81C56900F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>527C42251D81C56A00F2E020</string>
-				<string>527C42221D81C56A00F2E020</string>
-				<string>527C42201D81C56900F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42161D81C56900F2E020</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>527C423F1D81C56A00F2E020</string>
-			<key>buildPhases</key>
-			<array>
-				<string>081F3955DC2BB7FFEF508FAB</string>
-				<string>527C42131D81C56900F2E020</string>
-				<string>527C42141D81C56900F2E020</string>
-				<string>527C42151D81C56900F2E020</string>
-				<string>E3D0F578A692C8332E89F550</string>
-				<string>2AD82183EE5E2AAA8778BCF9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Ritzy</string>
-			<key>productName</key>
-			<string>Ritzy</string>
-			<key>productReference</key>
-			<string>527C42171D81C56900F2E020</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>527C42171D81C56900F2E020</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Ritzy.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>527C42181D81C56900F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C42171D81C56900F2E020</string>
-				<string>527C422B1D81C56A00F2E020</string>
-				<string>527C42361D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42191D81C56900F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C421A1D81C56900F2E020</string>
-				<string>527C421C1D81C56900F2E020</string>
-				<string>527C421E1D81C56900F2E020</string>
-				<string>527C42211D81C56A00F2E020</string>
-				<string>527C42231D81C56A00F2E020</string>
-				<string>527C42261D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Ritzy</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C421A1D81C56900F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C421B1D81C56900F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C421A1D81C56900F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C421C1D81C56900F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C421D1D81C56900F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C421C1D81C56900F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C421E1D81C56900F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C421F1D81C56900F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C421F1D81C56900F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42201D81C56900F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C421E1D81C56900F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C42211D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42221D81C56A00F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C42211D81C56A00F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C42231D81C56A00F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C42241D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42241D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42251D81C56A00F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C42231D81C56A00F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C42261D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42271D81C56A00F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>527C42301D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42281D81C56A00F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42291D81C56A00F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C422A1D81C56A00F2E020</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>527C42421D81C56A00F2E020</string>
-			<key>buildPhases</key>
-			<array>
-				<string>527C42271D81C56A00F2E020</string>
-				<string>527C42281D81C56A00F2E020</string>
-				<string>527C42291D81C56A00F2E020</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>527C422D1D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RitzyTests</string>
-			<key>productName</key>
-			<string>RitzyTests</string>
-			<key>productReference</key>
-			<string>527C422B1D81C56A00F2E020</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>527C422B1D81C56A00F2E020</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RitzyTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>527C422C1D81C56A00F2E020</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>527C420F1D81C56900F2E020</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>527C42161D81C56900F2E020</string>
-			<key>remoteInfo</key>
-			<string>Ritzy</string>
-		</dict>
-		<key>527C422D1D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>527C42161D81C56900F2E020</string>
-			<key>targetProxy</key>
-			<string>527C422C1D81C56A00F2E020</string>
-		</dict>
-		<key>527C422E1D81C56A00F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C422F1D81C56A00F2E020</string>
-				<string>527C42311D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RitzyTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C422F1D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RitzyTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42301D81C56A00F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C422F1D81C56A00F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C42311D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C42321D81C56A00F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>527C423B1D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42331D81C56A00F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42341D81C56A00F2E020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>527C42351D81C56A00F2E020</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>527C42451D81C56A00F2E020</string>
-			<key>buildPhases</key>
-			<array>
-				<string>527C42321D81C56A00F2E020</string>
-				<string>527C42331D81C56A00F2E020</string>
-				<string>527C42341D81C56A00F2E020</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>527C42381D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RitzyUITests</string>
-			<key>productName</key>
-			<string>RitzyUITests</string>
-			<key>productReference</key>
-			<string>527C42361D81C56A00F2E020</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>527C42361D81C56A00F2E020</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RitzyUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>527C42371D81C56A00F2E020</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>527C420F1D81C56900F2E020</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>527C42161D81C56900F2E020</string>
-			<key>remoteInfo</key>
-			<string>Ritzy</string>
-		</dict>
-		<key>527C42381D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>527C42161D81C56900F2E020</string>
-			<key>targetProxy</key>
-			<string>527C42371D81C56A00F2E020</string>
-		</dict>
-		<key>527C42391D81C56A00F2E020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>527C423A1D81C56A00F2E020</string>
-				<string>527C423C1D81C56A00F2E020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RitzyUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C423A1D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RitzyUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C423B1D81C56A00F2E020</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527C423A1D81C56A00F2E020</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527C423C1D81C56A00F2E020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527C423D1D81C56A00F2E020</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>527C423E1D81C56A00F2E020</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>527C423F1D81C56A00F2E020</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>527C42401D81C56A00F2E020</string>
-				<string>527C42411D81C56A00F2E020</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>527C42401D81C56A00F2E020</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BC444A4ABCE35CD5A054804E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Ritzy/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Apparently.Ritzy</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>527C42411D81C56A00F2E020</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E4C99D95FE6B10A1B65864C1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Ritzy/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Apparently.Ritzy</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>527C42421D81C56A00F2E020</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>527C42431D81C56A00F2E020</string>
-				<string>527C42441D81C56A00F2E020</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>527C42431D81C56A00F2E020</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RitzyTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Apparently.RitzyTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Ritzy.app/Ritzy</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>527C42441D81C56A00F2E020</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RitzyTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Apparently.RitzyTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Ritzy.app/Ritzy</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>527C42451D81C56A00F2E020</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>527C42461D81C56A00F2E020</string>
-				<string>527C42471D81C56A00F2E020</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>527C42461D81C56A00F2E020</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>RitzyUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Apparently.RitzyUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>Ritzy</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>527C42471D81C56A00F2E020</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>RitzyUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Apparently.RitzyUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>Ritzy</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>965BFFF693F3A3C4B3C8AB7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC2782FDFFA4416A4DFE44B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC444A4ABCE35CD5A054804E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Ritzy.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5372FCC6A035A5BA4C345F1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC444A4ABCE35CD5A054804E</string>
-				<string>E4C99D95FE6B10A1B65864C1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3D0F578A692C8332E89F550</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E4C99D95FE6B10A1B65864C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Ritzy.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB0628C2EB2BEA3183F74D6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC2782FDFFA4416A4DFE44B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC2782FDFFA4416A4DFE44B7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_Ritzy.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>527C420F1D81C56900F2E020</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527C421B1D81C56900F2E020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C421A1D81C56900F2E020 /* AppDelegate.swift */; };
+		527C421D1D81C56900F2E020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C421C1D81C56900F2E020 /* ViewController.swift */; };
+		527C42201D81C56900F2E020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527C421E1D81C56900F2E020 /* Main.storyboard */; };
+		527C42221D81C56A00F2E020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527C42211D81C56A00F2E020 /* Assets.xcassets */; };
+		527C42251D81C56A00F2E020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527C42231D81C56A00F2E020 /* LaunchScreen.storyboard */; };
+		527C42301D81C56A00F2E020 /* RitzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C422F1D81C56A00F2E020 /* RitzyTests.swift */; };
+		527C423B1D81C56A00F2E020 /* RitzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C423A1D81C56A00F2E020 /* RitzyUITests.swift */; };
+		52DD8DAE1D8200CC00F0736D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DAB1D8200CC00F0736D /* FBSDKCoreKit.framework */; };
+		52DD8DAF1D8200CC00F0736D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DAC1D8200CC00F0736D /* FBSDKLoginKit.framework */; };
+		52DD8DB01D8200CC00F0736D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DAD1D8200CC00F0736D /* FBSDKShareKit.framework */; };
+		52DD8DB21D82085400F0736D /* FBLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD8DB11D82085400F0736D /* FBLoginView.swift */; };
+		52DD8DB41D820A3000F0736D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DB31D820A3000F0736D /* Bolts.framework */; };
+		965BFFF693F3A3C4B3C8AB7A /* Pods_Ritzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2782FDFFA4416A4DFE44B7 /* Pods_Ritzy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527C422C1D81C56A00F2E020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527C420F1D81C56900F2E020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527C42161D81C56900F2E020;
+			remoteInfo = Ritzy;
+		};
+		527C42371D81C56A00F2E020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527C420F1D81C56900F2E020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527C42161D81C56900F2E020;
+			remoteInfo = Ritzy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527C42171D81C56900F2E020 /* Ritzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ritzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527C421A1D81C56900F2E020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527C421C1D81C56900F2E020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527C421F1D81C56900F2E020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527C42211D81C56A00F2E020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527C42241D81C56A00F2E020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527C42261D81C56A00F2E020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527C422B1D81C56A00F2E020 /* RitzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RitzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527C422F1D81C56A00F2E020 /* RitzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitzyTests.swift; sourceTree = "<group>"; };
+		527C42311D81C56A00F2E020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527C42361D81C56A00F2E020 /* RitzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RitzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527C423A1D81C56A00F2E020 /* RitzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitzyUITests.swift; sourceTree = "<group>"; };
+		527C423C1D81C56A00F2E020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DD8DAB1D8200CC00F0736D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.15.0 (1)/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		52DD8DAC1D8200CC00F0736D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.15.0 (1)/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		52DD8DAD1D8200CC00F0736D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.15.0 (1)/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		52DD8DB11D82085400F0736D /* FBLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginView.swift; sourceTree = "<group>"; };
+		52DD8DB31D820A3000F0736D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		BC444A4ABCE35CD5A054804E /* Pods-Ritzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C99D95FE6B10A1B65864C1 /* Pods-Ritzy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.release.xcconfig"; sourceTree = "<group>"; };
+		FC2782FDFFA4416A4DFE44B7 /* Pods_Ritzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ritzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527C42141D81C56900F2E020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DD8DB41D820A3000F0736D /* Bolts.framework in Frameworks */,
+				52DD8DB01D8200CC00F0736D /* FBSDKShareKit.framework in Frameworks */,
+				965BFFF693F3A3C4B3C8AB7A /* Pods_Ritzy.framework in Frameworks */,
+				52DD8DAE1D8200CC00F0736D /* FBSDKCoreKit.framework in Frameworks */,
+				52DD8DAF1D8200CC00F0736D /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527C42281D81C56A00F2E020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527C42331D81C56A00F2E020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527C420E1D81C56900F2E020 = {
+			isa = PBXGroup;
+			children = (
+				527C42191D81C56900F2E020 /* Ritzy */,
+				527C422E1D81C56A00F2E020 /* RitzyTests */,
+				527C42391D81C56A00F2E020 /* RitzyUITests */,
+				527C42181D81C56900F2E020 /* Products */,
+				C5372FCC6A035A5BA4C345F1 /* Pods */,
+				EB0628C2EB2BEA3183F74D6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		527C42181D81C56900F2E020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527C42171D81C56900F2E020 /* Ritzy.app */,
+				527C422B1D81C56A00F2E020 /* RitzyTests.xctest */,
+				527C42361D81C56A00F2E020 /* RitzyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527C42191D81C56900F2E020 /* Ritzy */ = {
+			isa = PBXGroup;
+			children = (
+				527C421A1D81C56900F2E020 /* AppDelegate.swift */,
+				527C421C1D81C56900F2E020 /* ViewController.swift */,
+				527C421E1D81C56900F2E020 /* Main.storyboard */,
+				52DD8DB11D82085400F0736D /* FBLoginView.swift */,
+				527C42211D81C56A00F2E020 /* Assets.xcassets */,
+				527C42231D81C56A00F2E020 /* LaunchScreen.storyboard */,
+				527C42261D81C56A00F2E020 /* Info.plist */,
+			);
+			path = Ritzy;
+			sourceTree = "<group>";
+		};
+		527C422E1D81C56A00F2E020 /* RitzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				527C422F1D81C56A00F2E020 /* RitzyTests.swift */,
+				527C42311D81C56A00F2E020 /* Info.plist */,
+			);
+			path = RitzyTests;
+			sourceTree = "<group>";
+		};
+		527C42391D81C56A00F2E020 /* RitzyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				527C423A1D81C56A00F2E020 /* RitzyUITests.swift */,
+				527C423C1D81C56A00F2E020 /* Info.plist */,
+			);
+			path = RitzyUITests;
+			sourceTree = "<group>";
+		};
+		C5372FCC6A035A5BA4C345F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC444A4ABCE35CD5A054804E /* Pods-Ritzy.debug.xcconfig */,
+				E4C99D95FE6B10A1B65864C1 /* Pods-Ritzy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB0628C2EB2BEA3183F74D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DD8DB31D820A3000F0736D /* Bolts.framework */,
+				52DD8DAB1D8200CC00F0736D /* FBSDKCoreKit.framework */,
+				52DD8DAC1D8200CC00F0736D /* FBSDKLoginKit.framework */,
+				52DD8DAD1D8200CC00F0736D /* FBSDKShareKit.framework */,
+				FC2782FDFFA4416A4DFE44B7 /* Pods_Ritzy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527C42161D81C56900F2E020 /* Ritzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527C423F1D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "Ritzy" */;
+			buildPhases = (
+				081F3955DC2BB7FFEF508FAB /* Check Pods Manifest.lock */,
+				527C42131D81C56900F2E020 /* Sources */,
+				527C42141D81C56900F2E020 /* Frameworks */,
+				527C42151D81C56900F2E020 /* Resources */,
+				E3D0F578A692C8332E89F550 /* Embed Pods Frameworks */,
+				2AD82183EE5E2AAA8778BCF9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ritzy;
+			productName = Ritzy;
+			productReference = 527C42171D81C56900F2E020 /* Ritzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527C422A1D81C56A00F2E020 /* RitzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527C42421D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "RitzyTests" */;
+			buildPhases = (
+				527C42271D81C56A00F2E020 /* Sources */,
+				527C42281D81C56A00F2E020 /* Frameworks */,
+				527C42291D81C56A00F2E020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527C422D1D81C56A00F2E020 /* PBXTargetDependency */,
+			);
+			name = RitzyTests;
+			productName = RitzyTests;
+			productReference = 527C422B1D81C56A00F2E020 /* RitzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527C42351D81C56A00F2E020 /* RitzyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527C42451D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "RitzyUITests" */;
+			buildPhases = (
+				527C42321D81C56A00F2E020 /* Sources */,
+				527C42331D81C56A00F2E020 /* Frameworks */,
+				527C42341D81C56A00F2E020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527C42381D81C56A00F2E020 /* PBXTargetDependency */,
+			);
+			name = RitzyUITests;
+			productName = RitzyUITests;
+			productReference = 527C42361D81C56A00F2E020 /* RitzyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527C420F1D81C56900F2E020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apparently;
+				TargetAttributes = {
+					527C42161D81C56900F2E020 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					527C422A1D81C56A00F2E020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 527C42161D81C56900F2E020;
+					};
+					527C42351D81C56A00F2E020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 527C42161D81C56900F2E020;
+					};
+				};
+			};
+			buildConfigurationList = 527C42121D81C56900F2E020 /* Build configuration list for PBXProject "Ritzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527C420E1D81C56900F2E020;
+			productRefGroup = 527C42181D81C56900F2E020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527C42161D81C56900F2E020 /* Ritzy */,
+				527C422A1D81C56A00F2E020 /* RitzyTests */,
+				527C42351D81C56A00F2E020 /* RitzyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527C42151D81C56900F2E020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527C42251D81C56A00F2E020 /* LaunchScreen.storyboard in Resources */,
+				527C42221D81C56A00F2E020 /* Assets.xcassets in Resources */,
+				527C42201D81C56900F2E020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527C42291D81C56A00F2E020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527C42341D81C56A00F2E020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		081F3955DC2BB7FFEF508FAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD82183EE5E2AAA8778BCF9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D0F578A692C8332E89F550 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527C42131D81C56900F2E020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527C421D1D81C56900F2E020 /* ViewController.swift in Sources */,
+				52DD8DB21D82085400F0736D /* FBLoginView.swift in Sources */,
+				527C421B1D81C56900F2E020 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527C42271D81C56A00F2E020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527C42301D81C56A00F2E020 /* RitzyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527C42321D81C56A00F2E020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527C423B1D81C56A00F2E020 /* RitzyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527C422D1D81C56A00F2E020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527C42161D81C56900F2E020 /* Ritzy */;
+			targetProxy = 527C422C1D81C56A00F2E020 /* PBXContainerItemProxy */;
+		};
+		527C42381D81C56A00F2E020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527C42161D81C56900F2E020 /* Ritzy */;
+			targetProxy = 527C42371D81C56A00F2E020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527C421E1D81C56900F2E020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527C421F1D81C56900F2E020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527C42231D81C56A00F2E020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527C42241D81C56A00F2E020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527C423D1D81C56A00F2E020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527C423E1D81C56A00F2E020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527C42401D81C56A00F2E020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC444A4ABCE35CD5A054804E /* Pods-Ritzy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks\"",
+					"\"~/Documents/FacebookSDK\"",
+				);
+				INFOPLIST_FILE = Ritzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apparently.Ritzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		527C42411D81C56A00F2E020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C99D95FE6B10A1B65864C1 /* Pods-Ritzy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks\"",
+					"\"~/Documents/FacebookSDK\"",
+				);
+				INFOPLIST_FILE = Ritzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apparently.Ritzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		527C42431D81C56A00F2E020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RitzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ritzy.app/Ritzy";
+			};
+			name = Debug;
+		};
+		527C42441D81C56A00F2E020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RitzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ritzy.app/Ritzy";
+			};
+			name = Release;
+		};
+		527C42461D81C56A00F2E020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RitzyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ritzy;
+			};
+			name = Debug;
+		};
+		527C42471D81C56A00F2E020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RitzyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ritzy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527C42121D81C56900F2E020 /* Build configuration list for PBXProject "Ritzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527C423D1D81C56A00F2E020 /* Debug */,
+				527C423E1D81C56A00F2E020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527C423F1D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "Ritzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527C42401D81C56A00F2E020 /* Debug */,
+				527C42411D81C56A00F2E020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527C42421D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "RitzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527C42431D81C56A00F2E020 /* Debug */,
+				527C42441D81C56A00F2E020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527C42451D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "RitzyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527C42461D81C56A00F2E020 /* Debug */,
+				527C42471D81C56A00F2E020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527C420F1D81C56900F2E020 /* Project object */;
+}

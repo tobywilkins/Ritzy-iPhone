@@ -13,7 +13,7 @@
 		<key>0035E280E2227924AC4E2F8B3D44EF6B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E2202B564B11AE527646FCE20765DA96</string>
+			<string>A63EC31E1C1A68B7CAE35A650CB0A7E0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -23,19 +23,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>02697061288E5805FBD2B6457E63D6D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Alamofire-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>04412DCC9BA971656D8FA238F8E539D6</key>
 		<dict>
@@ -53,7 +40,7 @@
 		<key>050D31F1ACF003324524127CC92E1C6F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4A06137A351642AD0C75F668633A7EEB</string>
+			<string>1D8917AA1784935CFDAEF926474E045C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -64,32 +51,17 @@
 				</array>
 			</dict>
 		</dict>
-		<key>05EB7CD073D760D5C9645CDAE88BD5D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Request.swift</string>
-			<key>path</key>
-			<string>Source/Request.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>095406039B4D371E48D08B38A2975AC8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3A212F3D15961FEAD493D0BAB5F416A5</string>
+			<string>09BE9841F9F111F3B7219912BBA36142</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>099CC91A1E3C845EC7B4C693BCC31B62</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>838E5C19B4E14FAAE9F9568FE4D610B0</string>
+			<string>81426855E546B98974977CF9257C686B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -144,6 +116,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>09BE9841F9F111F3B7219912BBA36142</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Error.swift</string>
+			<key>path</key>
+			<string>Source/Error.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0A33DC707B44F030F5360D55F0E5C04D</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -167,20 +154,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0BEB7EBA37BE5182C35EFC7628E0B692</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Canvas.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13EB2959657E57409557CA0116D79D31</key>
+		<key>0DEE7A701ED941C805B8AAF4445795F8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -189,33 +163,49 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>ServerTrustPolicy.swift</string>
+			<string>Response.swift</string>
 			<key>path</key>
-			<string>Source/ServerTrustPolicy.swift</string>
+			<string>Source/Response.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1080F5DDA49CE816036AB95E05114D55</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>467D716788A89A3FDF54E5DA9372AB46</string>
+				<string>97FB16052DA896681A8F206E4433BE5A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseInstanceID</string>
+			<key>path</key>
+			<string>FirebaseInstanceID</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>121BAAB2E0808B13AEB281621D52FC38</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1C1C4E3018CFBC595EA8DB8015ABDF16</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleUtilities</string>
+			<key>path</key>
+			<string>GoogleUtilities</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>146EA652DBF62F28CFB6A3001693A9D8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>591B317F9CACBE414283008234906B9C</string>
+			<string>C9D81D09F92E96386F7300B4B6694C3C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>14BDA535C2E9E2CEA4B5F8D8E81A6FC9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UILabel+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UILabel+TCCustomFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>150E0377877DC19B44BDC1F41DC4543D</key>
 		<dict>
@@ -244,7 +234,7 @@
 		<key>16102E4E35FAA0FC4161282FECE56469</key>
 		<dict>
 			<key>fileRef</key>
-			<string>70929AE569423345C04AA23F3F63B130</string>
+			<string>386CD0F6E6906669D2698C4382AFB132</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -263,12 +253,40 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>18040B943A3CDFC292DB1A1D5CBDBCB4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FirebaseAnalytics.framework</string>
+			<key>path</key>
+			<string>Frameworks/frameworks/FirebaseAnalytics.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>194F240E2777ABB596A2DB81BA4729E6</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>19E35258911FD103714C402BFAA5C3B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UITextField+TCCustomFont.m</string>
+			<key>path</key>
+			<string>CanvasLibrary/UITextField+TCCustomFont.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1A53B1F9F9331B0168F5CBA6B5694FE1</key>
 		<dict>
@@ -281,39 +299,36 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1CA41B1F0A8A3180345ABF38EF2E3BB4</key>
+		<key>1B8E6EA0AF132D57AD0DABFE503CAD6C</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DEDA2F76E11F493BB9AADD2E29F8B595</string>
-				<string>A0ECCA862FBD47C9A37929322B39344B</string>
-				<string>D88852A3B19D84EC201F2D3491D594F6</string>
-				<string>AE732D69C3228E4585BE3EC068CDA8D4</string>
-				<string>835AD025E6EA140B4D3A6C3164CFABA3</string>
-				<string>E2202B564B11AE527646FCE20765DA96</string>
-				<string>39B67F886EDD1C2CF454541818B8AB97</string>
-				<string>70443FFF280ED0D9A4ED7258E0984EDB</string>
-				<string>E73719949E4304306710D5304B4EAFD7</string>
-				<string>321E1C3FA721590B323CEA28C1922E43</string>
-				<string>6069192F7D5315AD94DFBF83FEEF01B0</string>
-				<string>FE58FFD7A2B7D4DB4707B88A5985063F</string>
-				<string>14BDA535C2E9E2CEA4B5F8D8E81A6FC9</string>
-				<string>BB5CFF5C5FA4C1B293CE118D92457C96</string>
-				<string>82812CDB2D7E6C2AFE3D90C8F9B15ACE</string>
-				<string>486685BCFEF7AB18B7B90B79A18F5B7B</string>
-				<string>A982BD81713395696C81E3F64822C157</string>
-				<string>5572DD022BFF6B7B17E5A118B1DD74EE</string>
-				<string>F21DF7F58E71FE7087BCC1F7E9D8FA09</string>
-				<string>4A06137A351642AD0C75F668633A7EEB</string>
-				<string>591B317F9CACBE414283008234906B9C</string>
-				<string>6635864737ED28274536E0C7EC34A1A0</string>
+				<string>83C2E0756E3923F42CC1CABB66C5E9B1</string>
+				<string>6DF735985D4AA0A80B28FA7AC20351F8</string>
+				<string>F0BF48DEF0A58980BD2905B4027E7ED8</string>
+				<string>CBB98AFC600AA00B82FABB60ECD44913</string>
+				<string>9B0FFC925EC6447FC6EB7CB34ECE835F</string>
+				<string>50C99FC0C6DC7CE5DD084DB89FAD4F3F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Canvas</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Canvas</string>
+			<string>../Target Support Files/Canvas</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1C1C4E3018CFBC595EA8DB8015ABDF16</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B9941319B6A4BD08B8AA989126FD7590</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -340,6 +355,34 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>1D8917AA1784935CFDAEF926474E045C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UITextView+TCCustomFont.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/UITextView+TCCustomFont.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>21280202388A4E42FA807C1C582BA8EF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>18040B943A3CDFC292DB1A1D5CBDBCB4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2167AB36E001091763BDEE76AF086DE8</key>
 		<dict>
@@ -402,19 +445,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>233AFE9ABC4E21C9626FE549E0AE82B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Canvas-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>25142C634A03A1B082567F64A74B7026</key>
 		<dict>
@@ -505,7 +535,7 @@
 		<key>2B3C98BF6B534DD54B2918F45B66A324</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5572DD022BFF6B7B17E5A118B1DD74EE</string>
+			<string>5044111F014084422A089579DBF8A879</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -516,25 +546,40 @@
 				</array>
 			</dict>
 		</dict>
-		<key>2D2DBEF9A62F9B1920FE2920EAABA764</key>
+		<key>2C65AF8BE5DB63787E43C32D45C10423</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Response.swift</string>
+			<string>CSNavigationController.m</string>
 			<key>path</key>
-			<string>Source/Response.swift</string>
+			<string>CanvasLibrary/CSNavigationController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C7F30851981EAFACA4D65B8189E0880</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DDA99F35317E19C35379518C1342CA11</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Firebase</string>
+			<key>path</key>
+			<string>Firebase</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2D3405986FC586FA6C0A5E0B6BA7E64E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5BB0F9933BBCD21FC1E737406A66AD29</string>
+			<string>EFCAD6EFE9A054D9B12EFF99BC816BC0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -552,44 +597,14 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>321E1C3FA721590B323CEA28C1922E43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIButton+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UIButton+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33F5DA87742A4180953220FAD51AC29D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Result.swift</string>
-			<key>path</key>
-			<string>Source/Result.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>34CCDCA848A701466256BC2927DA8856</key>
 		<dict>
 			<key>fileRef</key>
-			<string>973B83502B6D29BC285C142FC6406CB9</string>
+			<string>8F3BF9C40B835B0D8725D1C9F85F9F72</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>353F0BB6B30E5D3F37EF258F042CD4EA</key>
+		<key>36949263F8E14750F9708B82A4984DB4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -598,9 +613,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>MultipartFormData.swift</string>
+			<string>Stream.swift</string>
 			<key>path</key>
-			<string>Source/MultipartFormData.swift</string>
+			<string>Source/Stream.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -671,26 +686,11 @@
 		<key>37437BE1DBC4C60EEF23B79D6C994BF8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>835AD025E6EA140B4D3A6C3164CFABA3</string>
+			<string>E34E3955D5365D92E146BCAA7AF24244</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>39B67F886EDD1C2CF454541818B8AB97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CSBlurView.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSBlurView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A212F3D15961FEAD493D0BAB5F416A5</key>
+		<key>3835E343BB958DE588857087ECA6426E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -699,9 +699,50 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Error.swift</string>
+			<string>Manager.swift</string>
 			<key>path</key>
-			<string>Source/Error.swift</string>
+			<string>Source/Manager.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38673943AD70CBAE44C840EC3E0E713B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UITextField+PlaceholderColor.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/UITextField+PlaceholderColor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>386CD0F6E6906669D2698C4382AFB132</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Timeline.swift</string>
+			<key>path</key>
+			<string>Source/Timeline.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38FA5FBDA65D3BA96682E5C8CA8680A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Alamofire.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -718,19 +759,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>3CD37B76F208CFE6758C7DC17C6BF5F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Canvas-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3CFB42910790CF0BDBCCEBAACD6B9367</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -745,6 +773,38 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>3E01D45146DB8B089A89B50E651A3437</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A841FD62988281AB4F35DA2B6D95FB79</string>
+				<string>DA069023BED068A9BC7579FCF150F755</string>
+				<string>09BE9841F9F111F3B7219912BBA36142</string>
+				<string>3835E343BB958DE588857087ECA6426E</string>
+				<string>46CF5E00BA1BE43C29E89B9935A80213</string>
+				<string>8F3BF9C40B835B0D8725D1C9F85F9F72</string>
+				<string>47051AF42DEFC370CB68CDB31693DBBF</string>
+				<string>B2959E634B1FD4499AE62DF8EB2B9101</string>
+				<string>62DAF65199ACF3848FCB0586383866A7</string>
+				<string>0DEE7A701ED941C805B8AAF4445795F8</string>
+				<string>A246375E440DB688A0CD43B2704DA264</string>
+				<string>467F09B7AB4175BA8B4A1808BF754671</string>
+				<string>E42435992E4D2F341AA84398128A79E4</string>
+				<string>36949263F8E14750F9708B82A4984DB4</string>
+				<string>386CD0F6E6906669D2698C4382AFB132</string>
+				<string>5385D938E92B8C1C8E147FC8A5ED3BB7</string>
+				<string>EFCAD6EFE9A054D9B12EFF99BC816BC0</string>
+				<string>E03C4F6B899E7F9E3B80192F57C8452D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Alamofire</string>
+			<key>path</key>
+			<string>Alamofire</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3E4E89230EF59BC255123B67864ACF77</key>
 		<dict>
 			<key>isa</key>
@@ -758,10 +818,25 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
+		<key>3E9BA60F1B09FC3D99F5958F17E566B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIButton+TCCustomFont.m</string>
+			<key>path</key>
+			<string>CanvasLibrary/UIButton+TCCustomFont.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3EA8F215C9C1432D74E5CCA4834AA8C0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A9D670969BE1B9A3278C7F11702B91A9</string>
+			<string>A246375E440DB688A0CD43B2704DA264</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -782,7 +857,7 @@
 		<key>4081EA628AF0B73AC51FFB9D7AB3B89E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>83819DB06E781680677399A20BC6779B</string>
+			<string>3835E343BB958DE588857087ECA6426E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -801,7 +876,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>486685BCFEF7AB18B7B90B79A18F5B7B</key>
+		<key>467D716788A89A3FDF54E5DA9372AB46</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -810,28 +885,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UITextField+PlaceholderColor.h</string>
+			<string>FIRInstanceID.h</string>
 			<key>path</key>
-			<string>CanvasLibrary/UITextField+PlaceholderColor.h</string>
+			<string>Sources/FIRInstanceID.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A06137A351642AD0C75F668633A7EEB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITextView+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextView+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D581A8B36AAEE6F8E3819E7ADDD2DC7</key>
+		<key>467F09B7AB4175BA8B4A1808BF754671</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -840,13 +900,43 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Stream.swift</string>
+			<string>Result.swift</string>
 			<key>path</key>
-			<string>Source/Stream.swift</string>
+			<string>Source/Result.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4EDFE11B4895B088F88C4D5597257151</key>
+		<key>46CF5E00BA1BE43C29E89B9935A80213</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>MultipartFormData.swift</string>
+			<key>path</key>
+			<string>Source/MultipartFormData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47051AF42DEFC370CB68CDB31693DBBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Notifications.swift</string>
+			<key>path</key>
+			<string>Source/Notifications.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4747CCECF76D562CE698FDF9735CFDA2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -854,15 +944,81 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UILabel+TCCustomFont.m</string>
 			<key>path</key>
-			<string>Canvas-dummy.m</string>
+			<string>CanvasLibrary/UILabel+TCCustomFont.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4AA9E3B5559B45EC85E6003FA16A8B5F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleInterchangeUtilities.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleInterchangeUtilities.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CF75DE7A582EBD8D0773540195BEA80</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Canvas.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/Canvas.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4DE78A542487FC8B2EFF61E6806C4619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CF75DE7A582EBD8D0773540195BEA80</string>
+				<string>D99EBF5159EBCD76AA4C56349028BDED</string>
+				<string>98E62BA0266E863ED668F9BA774B027D</string>
+				<string>FC0B8C4888A5FD46E1B15C3CE42D4C6D</string>
+				<string>E34E3955D5365D92E146BCAA7AF24244</string>
+				<string>A63EC31E1C1A68B7CAE35A650CB0A7E0</string>
+				<string>835D8E711D805E84D5F5040EA818D18A</string>
+				<string>9D82D6FDD1E84D8114F68D65C8E031EB</string>
+				<string>2C65AF8BE5DB63787E43C32D45C10423</string>
+				<string>C9DE246E088FB6785E87018C75BFAB6E</string>
+				<string>3E9BA60F1B09FC3D99F5958F17E566B3</string>
+				<string>690E3B4741FB562445206840F5078113</string>
+				<string>4747CCECF76D562CE698FDF9735CFDA2</string>
+				<string>FA26E63CBB944D5DED107D28A0B26D84</string>
+				<string>9F6C903F1A8C836B70942E12F2B70CC2</string>
+				<string>38673943AD70CBAE44C840EC3E0E713B</string>
+				<string>CC604F1503A9333D02EF3CEFE6067B32</string>
+				<string>5044111F014084422A089579DBF8A879</string>
+				<string>19E35258911FD103714C402BFAA5C3B5</string>
+				<string>1D8917AA1784935CFDAEF926474E045C</string>
+				<string>C9D81D09F92E96386F7300B4B6694C3C</string>
+				<string>1B8E6EA0AF132D57AD0DABFE503CAD6C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Canvas</string>
+			<key>path</key>
+			<string>Canvas</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4F3DF3C44C278FE44AD44BA7C7FFE416</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A0ECCA862FBD47C9A37929322B39344B</string>
+			<string>D99EBF5159EBCD76AA4C56349028BDED</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -914,10 +1070,38 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>5044111F014084422A089579DBF8A879</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UITextField+TCCustomFont.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/UITextField+TCCustomFont.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50C99FC0C6DC7CE5DD084DB89FAD4F3F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>51DB856BD58ADC66EAF464260C9BB683</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E73719949E4304306710D5304B4EAFD7</string>
+			<string>2C65AF8BE5DB63787E43C32D45C10423</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -935,33 +1119,18 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>5572DD022BFF6B7B17E5A118B1DD74EE</key>
+		<key>5385D938E92B8C1C8E147FC8A5ED3BB7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>UITextField+TCCustomFont.h</string>
+			<string>Upload.swift</string>
 			<key>path</key>
-			<string>CanvasLibrary/UITextField+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>591B317F9CACBE414283008234906B9C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextView+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextView+TCCustomFont.m</string>
+			<string>Source/Upload.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1036,7 +1205,7 @@
 		<key>5B4EA44A9A7BDD6D20780DC1DC2C7864</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>838E5C19B4E14FAAE9F9568FE4D610B0</string>
+			<string>81426855E546B98974977CF9257C686B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1089,32 +1258,17 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5BB0F9933BBCD21FC1E737406A66AD29</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Validation.swift</string>
-			<key>path</key>
-			<string>Source/Validation.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5BC19E6E0F199276003F0AF96838BCE5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8FAF7505FCB3AC8D92792F23F17EDEDA</string>
+			<string>5385D938E92B8C1C8E147FC8A5ED3BB7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>5CB05FBCB32D21E194B5ECF680CB6AE0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>77D792C3D4AAC79F30DE7194F28B08E3</string>
+			<string>DA069023BED068A9BC7579FCF150F755</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1129,32 +1283,52 @@
 			<key>targetProxy</key>
 			<string>CA08CA39100ECC5B62C086143307D720</string>
 		</dict>
-		<key>6069192F7D5315AD94DFBF83FEEF01B0</key>
+		<key>62DAF65199ACF3848FCB0586383866A7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>UIButton+TCCustomFont.m</string>
+			<string>Request.swift</string>
 			<key>path</key>
-			<string>CanvasLibrary/UIButton+TCCustomFont.m</string>
+			<string>Source/Request.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>62E8346F03C03E7F4D631361F325689E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2D2DBEF9A62F9B1920FE2920EAABA764</string>
+			<string>0DEE7A701ED941C805B8AAF4445795F8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>653E5B319F656BF009972B7602F6FF5A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E01D45146DB8B089A89B50E651A3437</string>
+				<string>4DE78A542487FC8B2EFF61E6806C4619</string>
+				<string>2C7F30851981EAFACA4D65B8189E0880</string>
+				<string>DED0D8DB4720EAF596F2BA3775731D7C</string>
+				<string>1080F5DDA49CE816036AB95E05114D55</string>
+				<string>8B9B938F8F76838C4DB72FD5A2889C8A</string>
+				<string>8E31CC495E53FA2EC2C851D6BF51100C</string>
+				<string>121BAAB2E0808B13AEB281621D52FC38</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>662C71BB07B541650F00C223691E8902</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FE58FFD7A2B7D4DB4707B88A5985063F</string>
+			<string>690E3B4741FB562445206840F5078113</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1164,37 +1338,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>6635864737ED28274536E0C7EC34A1A0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67B0B31667BC6CF4694AB1C26779DB46</string>
-				<string>0BEB7EBA37BE5182C35EFC7628E0B692</string>
-				<string>4EDFE11B4895B088F88C4D5597257151</string>
-				<string>233AFE9ABC4E21C9626FE549E0AE82B7</string>
-				<string>3CD37B76F208CFE6758C7DC17C6BF5F7</string>
-				<string>D6AF0CBD2F260964E00E573A35AC65B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Canvas</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67B0B31667BC6CF4694AB1C26779DB46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Canvas.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>68104A47379773025A9534D6F6F67C24</key>
 		<dict>
@@ -1222,21 +1365,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7006A6C1782B9713BD1898380C2938E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE6C351287B024FD861346DEB72B5911</string>
-				<string>1CA41B1F0A8A3180345ABF38EF2E3BB4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70443FFF280ED0D9A4ED7258E0984EDB</key>
+		<key>690E3B4741FB562445206840F5078113</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1245,39 +1374,22 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CSNavigationController.h</string>
+			<string>UILabel+TCCustomFont.h</string>
 			<key>path</key>
-			<string>CanvasLibrary/CSNavigationController.h</string>
+			<string>CanvasLibrary/UILabel+TCCustomFont.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>70929AE569423345C04AA23F3F63B130</key>
+		<key>6DF735985D4AA0A80B28FA7AC20351F8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Timeline.swift</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Source/Timeline.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77D792C3D4AAC79F30DE7194F28B08E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Download.swift</string>
-			<key>path</key>
-			<string>Source/Download.swift</string>
+			<string>Canvas.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1309,7 +1421,7 @@
 		<key>7B48852C4D848FA2DA416A98F6425869</key>
 		<dict>
 			<key>fileRef</key>
-			<string>13EB2959657E57409557CA0116D79D31</string>
+			<string>E42435992E4D2F341AA84398128A79E4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1332,7 +1444,7 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>7006A6C1782B9713BD1898380C2938E4</string>
+				<string>653E5B319F656BF009972B7602F6FF5A</string>
 				<string>45D8EF85FE82EFC4A0A6E1E4A91BB48E</string>
 				<string>68EBB8E1467F0F22FFAEA1B0837D9AB7</string>
 			</array>
@@ -1366,65 +1478,7 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>80E5B10CDA4402127A553DF4CE597377</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82812CDB2D7E6C2AFE3D90C8F9B15ACE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UINavigationBar+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UINavigationBar+TCCustomFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AD025E6EA140B4D3A6C3164CFABA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CSAnimationView.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimationView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83819DB06E781680677399A20BC6779B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Manager.swift</string>
-			<key>path</key>
-			<string>Source/Manager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>838E5C19B4E14FAAE9F9568FE4D610B0</key>
+		<key>81426855E546B98974977CF9257C686B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1437,18 +1491,55 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>847C8E840AD3BF08A59792AF1C16C286</key>
+		<key>81679AF3B2F7F757BD7D15A214BAC32E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Notifications.swift</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Source/Notifications.swift</string>
+			<string>Alamofire-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>835D8E711D805E84D5F5040EA818D18A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CSBlurView.m</string>
+			<key>path</key>
+			<string>CanvasLibrary/CSBlurView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83A777F6D200BA333B1D14FDF8D3BDBC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Alamofire-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83C2E0756E3923F42CC1CABB66C5E9B1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Canvas.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1483,14 +1574,44 @@
 			<key>targetProxy</key>
 			<string>EC39112F2939CB33F8B69867EF2364F6</string>
 		</dict>
+		<key>8B9B938F8F76838C4DB72FD5A2889C8A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B39AD4762A61ECB2FB22A0CE0D7222D7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleInterchangeUtilities</string>
+			<key>path</key>
+			<string>GoogleInterchangeUtilities</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E31CC495E53FA2EC2C851D6BF51100C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F04CC257DDE9973A6FD3CFDE1138373D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleSymbolUtilities</string>
+			<key>path</key>
+			<string>GoogleSymbolUtilities</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8EB11202167FCDDF1257AAAB1D1FB244</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DB860E9C78B87556969026B1CFA711F4</string>
+			<string>A841FD62988281AB4F35DA2B6D95FB79</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8FAF7505FCB3AC8D92792F23F17EDEDA</key>
+		<key>8F3BF9C40B835B0D8725D1C9F85F9F72</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1499,9 +1620,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Upload.swift</string>
+			<string>NetworkReachabilityManager.swift</string>
 			<key>path</key>
-			<string>Source/Upload.swift</string>
+			<string>Source/NetworkReachabilityManager.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1521,7 +1642,7 @@
 		<key>9469DF81ECB494E84675969B5E13374C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>80E5B10CDA4402127A553DF4CE597377</string>
+			<string>83A777F6D200BA333B1D14FDF8D3BDBC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1562,33 +1683,16 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>970D6D8EF6BC121FE56E3A9143E36A4C</key>
+		<key>960EBC37A0927DA080CE92221087E8CC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>ParameterEncoding.swift</string>
+			<string>GoogleSymbolUtilities.framework</string>
 			<key>path</key>
-			<string>Source/ParameterEncoding.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>973B83502B6D29BC285C142FC6406CB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>NetworkReachabilityManager.swift</string>
-			<key>path</key>
-			<string>Source/NetworkReachabilityManager.swift</string>
+			<string>Frameworks/GoogleSymbolUtilities.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1607,16 +1711,74 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>98998E590377F5304EE63B8E6045AE0B</key>
+		<key>97FB16052DA896681A8F206E4433BE5A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E31D349476E144C77291B0BBFC8DF1C4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>98E62BA0266E863ED668F9BA774B027D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CSAnimation.m</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>CanvasLibrary/CSAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B0FFC925EC6447FC6EB7CB34ECE835F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Canvas-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D82D6FDD1E84D8114F68D65C8E031EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CSNavigationController.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/CSNavigationController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F6C903F1A8C836B70942E12F2B70CC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UINavigationBar+TCCustomFont.m</string>
+			<key>path</key>
+			<string>CanvasLibrary/UINavigationBar+TCCustomFont.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1627,51 +1789,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A0ECCA862FBD47C9A37929322B39344B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CSAnimation.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2EAB23D235F8B41E28A14ADD16542A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70443FFF280ED0D9A4ED7258E0984EDB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A982BD81713395696C81E3F64822C157</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextField+PlaceholderColor.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextField+PlaceholderColor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9D670969BE1B9A3278C7F11702B91A9</key>
+		<key>A246375E440DB688A0CD43B2704DA264</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1686,24 +1804,68 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A2EAB23D235F8B41E28A14ADD16542A9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D82D6FDD1E84D8114F68D65C8E031EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A63EC31E1C1A68B7CAE35A650CB0A7E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CSBlurView.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/CSBlurView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A841FD62988281AB4F35DA2B6D95FB79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Alamofire.swift</string>
+			<key>path</key>
+			<string>Source/Alamofire.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>AA314156AC500125F4078EE968DB14C6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>33F5DA87742A4180953220FAD51AC29D</string>
+			<string>467F09B7AB4175BA8B4A1808BF754671</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>ADF19C953CE2A7D0B72EC93A81FCCC26</key>
 		<dict>
 			<key>fileRef</key>
-			<string>02697061288E5805FBD2B6457E63D6D8</string>
+			<string>81679AF3B2F7F757BD7D15A214BAC32E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>AE024FC0C6A794A8BC3B113BF63E836A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>321E1C3FA721590B323CEA28C1922E43</string>
+			<string>C9DE246E088FB6785E87018C75BFAB6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1717,35 +1879,9 @@
 		<key>AE4CF87C02C042DF13ED5B21C4FDC1E0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4D581A8B36AAEE6F8E3819E7ADDD2DC7</string>
+			<string>36949263F8E14750F9708B82A4984DB4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE732D69C3228E4585BE3EC068CDA8D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CSAnimationView.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimationView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AEBAFBA3DC70125DBED7F86B773D25A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Alamofire.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B0A81BD6691F182E7B4AFB82A82ABA6C</key>
 		<dict>
@@ -1764,7 +1900,7 @@
 		<key>B108140B73843C3328BA0088C2B4B3CF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>0BEB7EBA37BE5182C35EFC7628E0B692</string>
+			<string>6DF735985D4AA0A80B28FA7AC20351F8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1830,12 +1966,53 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>B2959E634B1FD4499AE62DF8EB2B9101</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ParameterEncoding.swift</string>
+			<key>path</key>
+			<string>Source/ParameterEncoding.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B37A4CE3AE562C1B0715F69687E6644A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>39B67F886EDD1C2CF454541818B8AB97</string>
+			<string>835D8E711D805E84D5F5040EA818D18A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>B39AD4762A61ECB2FB22A0CE0D7222D7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4AA9E3B5559B45EC85E6003FA16A8B5F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B9941319B6A4BD08B8AA989126FD7590</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleUtilities.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleUtilities.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B9F581894BC14D60D9D39EDA97EBAF13</key>
 		<dict>
@@ -1867,7 +2044,7 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BB5CFF5C5FA4C1B293CE118D92457C96</key>
+		<key>BA78E097334145C66AC5AE0FA8F7E6B2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1875,10 +2052,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UINavigationBar+TCCustomFont.h</string>
 			<key>path</key>
-			<string>CanvasLibrary/UINavigationBar+TCCustomFont.h</string>
+			<string>Alamofire-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1898,7 +2073,7 @@
 		<key>BE41196F6A3903E59C3306FE3F8B43FE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>847C8E840AD3BF08A59792AF1C16C286</string>
+			<string>47051AF42DEFC370CB68CDB31693DBBF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1918,14 +2093,14 @@
 		<key>C0DB70AB368765DC64BFB5FEA75E0696</key>
 		<dict>
 			<key>fileRef</key>
-			<string>970D6D8EF6BC121FE56E3A9143E36A4C</string>
+			<string>B2959E634B1FD4499AE62DF8EB2B9101</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C12996EA896ABDF39A40FC94315EA238</key>
 		<dict>
 			<key>fileRef</key>
-			<string>14BDA535C2E9E2CEA4B5F8D8E81A6FC9</string>
+			<string>4747CCECF76D562CE698FDF9735CFDA2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1958,21 +2133,51 @@
 		<key>C5703AD94DB5E55AF9A2D572CC81A08B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4EDFE11B4895B088F88C4D5597257151</string>
+			<string>F0BF48DEF0A58980BD2905B4027E7ED8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C7B6DD7C0456C50289A2C381DFE9FA3F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>353F0BB6B30E5D3F37EF258F042CD4EA</string>
+			<string>46CF5E00BA1BE43C29E89B9935A80213</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>C9D81D09F92E96386F7300B4B6694C3C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UITextView+TCCustomFont.m</string>
+			<key>path</key>
+			<string>CanvasLibrary/UITextView+TCCustomFont.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C9DE246E088FB6785E87018C75BFAB6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIButton+TCCustomFont.h</string>
+			<key>path</key>
+			<string>CanvasLibrary/UIButton+TCCustomFont.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C9EA18F788CF76E49B34C3B12A42200D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AE732D69C3228E4585BE3EC068CDA8D4</string>
+			<string>FC0B8C4888A5FD46E1B15C3CE42D4C6D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1999,9 +2204,52 @@
 		<key>CB9EA82F545BB2D13A0B32FF3A9FFF1C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D88852A3B19D84EC201F2D3491D594F6</string>
+			<string>98E62BA0266E863ED668F9BA774B027D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>CBB98AFC600AA00B82FABB60ECD44913</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Canvas-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC604F1503A9333D02EF3CEFE6067B32</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UITextField+PlaceholderColor.m</string>
+			<key>path</key>
+			<string>CanvasLibrary/UITextField+PlaceholderColor.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD004933B907FF270A0C0DA3FE194256</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Firebase.h</string>
+			<key>path</key>
+			<string>Analytics/Sources/Firebase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -2046,7 +2294,7 @@
 		<key>D67EF7976C6CBA25E166CED9013884C3</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>0BEB7EBA37BE5182C35EFC7628E0B692</string>
+			<string>6DF735985D4AA0A80B28FA7AC20351F8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2099,56 +2347,22 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>D6AF0CBD2F260964E00E573A35AC65B2</key>
+		<key>D99EBF5159EBCD76AA4C56349028BDED</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D88852A3B19D84EC201F2D3491D594F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CSAnimation.m</string>
+			<string>CSAnimation.h</string>
 			<key>path</key>
-			<string>CanvasLibrary/CSAnimation.m</string>
+			<string>CanvasLibrary/CSAnimation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DAD9483A8C579DE8A0561E2EC91736EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>82812CDB2D7E6C2AFE3D90C8F9B15ACE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB678D6A80AE82C0E08F121230FADB12</key>
-		<dict>
-			<key>fileRef</key>
-			<string>486685BCFEF7AB18B7B90B79A18F5B7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DB860E9C78B87556969026B1CFA711F4</key>
+		<key>DA069023BED068A9BC7579FCF150F755</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2157,16 +2371,23 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Alamofire.swift</string>
+			<string>Download.swift</string>
 			<key>path</key>
-			<string>Source/Alamofire.swift</string>
+			<string>Source/Download.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DD0DB59C5A2FC7EF534D4BFE1F45BFDC</key>
+		<key>DAD9483A8C579DE8A0561E2EC91736EB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3CD37B76F208CFE6758C7DC17C6BF5F7</string>
+			<string>9F6C903F1A8C836B70942E12F2B70CC2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DB678D6A80AE82C0E08F121230FADB12</key>
+		<dict>
+			<key>fileRef</key>
+			<string>38673943AD70CBAE44C840EC3E0E713B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2177,38 +2398,52 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DE7D2D518348EE663F80EAF422FA59BF</key>
+		<key>DD0DB59C5A2FC7EF534D4BFE1F45BFDC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>9B0FFC925EC6447FC6EB7CB34ECE835F</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-prefix.pch</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DDA99F35317E19C35379518C1342CA11</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD004933B907FF270A0C0DA3FE194256</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Analytics</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DEDA2F76E11F493BB9AADD2E29F8B595</key>
+		<key>DED0D8DB4720EAF596F2BA3775731D7C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>21280202388A4E42FA807C1C582BA8EF</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Canvas.h</string>
+			<string>FirebaseAnalytics</string>
 			<key>path</key>
-			<string>CanvasLibrary/Canvas.h</string>
+			<string>FirebaseAnalytics</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DF9556B6C0FBC1894056CA9E9DFFC0E5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BB5CFF5C5FA4C1B293CE118D92457C96</string>
+			<string>FA26E63CBB944D5DED107D28A0B26D84</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2222,34 +2457,20 @@
 		<key>E0280B7E837B585206DACE6B58CBA14A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6069192F7D5315AD94DFBF83FEEF01B0</string>
+			<string>3E9BA60F1B09FC3D99F5958F17E566B3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E064A372B02C1DB0F4DD763CAD500BA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEDA2F76E11F493BB9AADD2E29F8B595</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E0ABA15E9374E574C5C567DDD56CD886</key>
+		<key>E03C4F6B899E7F9E3B80192F57C8452D</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>AEBAFBA3DC70125DBED7F86B773D25A4</string>
-				<string>838E5C19B4E14FAAE9F9568FE4D610B0</string>
-				<string>02697061288E5805FBD2B6457E63D6D8</string>
-				<string>DE7D2D518348EE663F80EAF422FA59BF</string>
-				<string>80E5B10CDA4402127A553DF4CE597377</string>
-				<string>98998E590377F5304EE63B8E6045AE0B</string>
+				<string>38FA5FBDA65D3BA96682E5C8CA8680A3</string>
+				<string>81426855E546B98974977CF9257C686B</string>
+				<string>81679AF3B2F7F757BD7D15A214BAC32E</string>
+				<string>BA78E097334145C66AC5AE0FA8F7E6B2</string>
+				<string>83A777F6D200BA333B1D14FDF8D3BDBC</string>
+				<string>EDF9FAE09ECB1E1952B36686D628E544</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -2260,18 +2481,60 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E2202B564B11AE527646FCE20765DA96</key>
+		<key>E064A372B02C1DB0F4DD763CAD500BA1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CF75DE7A582EBD8D0773540195BEA80</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E31D349476E144C77291B0BBFC8DF1C4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FirebaseInstanceID.framework</string>
+			<key>path</key>
+			<string>Frameworks/frameworks/FirebaseInstanceID.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E34E3955D5365D92E146BCAA7AF24244</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CSBlurView.h</string>
+			<string>CSAnimationView.m</string>
 			<key>path</key>
-			<string>CanvasLibrary/CSBlurView.h</string>
+			<string>CanvasLibrary/CSAnimationView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E42435992E4D2F341AA84398128A79E4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ServerTrustPolicy.swift</string>
+			<key>path</key>
+			<string>Source/ServerTrustPolicy.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2303,21 +2566,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E73719949E4304306710D5304B4EAFD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CSNavigationController.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSNavigationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>EC39112F2939CB33F8B69867EF2364F6</key>
 		<dict>
 			<key>containerPortal</key>
@@ -2330,6 +2578,34 @@
 			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
 			<key>remoteInfo</key>
 			<string>Alamofire</string>
+		</dict>
+		<key>EDF9FAE09ECB1E1952B36686D628E544</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFCAD6EFE9A054D9B12EFF99BC816BC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Validation.swift</string>
+			<key>path</key>
+			<string>Source/Validation.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EFDF3B631BBB965A372347705CA14854</key>
 		<dict>
@@ -2347,11 +2623,24 @@
 		<key>EFE92E8D3813DD26E78E93EEAF6D7E7E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>05EB7CD073D760D5C9645CDAE88BD5D4</string>
+			<string>62DAF65199ACF3848FCB0586383866A7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F21DF7F58E71FE7087BCC1F7E9D8FA09</key>
+		<key>F04CC257DDE9973A6FD3CFDE1138373D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>960EBC37A0927DA080CE92221087E8CC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0BF48DEF0A58980BD2905B4027E7ED8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2359,17 +2648,15 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextField+TCCustomFont.m</string>
 			<key>path</key>
-			<string>CanvasLibrary/UITextField+TCCustomFont.m</string>
+			<string>Canvas-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F36FC5C3F71A1B956F4D4837202295AF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F21DF7F58E71FE7087BCC1F7E9D8FA09</string>
+			<string>19E35258911FD103714C402BFAA5C3B5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2393,7 +2680,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FE58FFD7A2B7D4DB4707B88A5985063F</key>
+		<key>FA26E63CBB944D5DED107D28A0B26D84</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2402,48 +2689,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UILabel+TCCustomFont.h</string>
+			<string>UINavigationBar+TCCustomFont.h</string>
 			<key>path</key>
-			<string>CanvasLibrary/UILabel+TCCustomFont.h</string>
+			<string>CanvasLibrary/UINavigationBar+TCCustomFont.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FE6C351287B024FD861346DEB72B5911</key>
+		<key>FC0B8C4888A5FD46E1B15C3CE42D4C6D</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>DB860E9C78B87556969026B1CFA711F4</string>
-				<string>77D792C3D4AAC79F30DE7194F28B08E3</string>
-				<string>3A212F3D15961FEAD493D0BAB5F416A5</string>
-				<string>83819DB06E781680677399A20BC6779B</string>
-				<string>353F0BB6B30E5D3F37EF258F042CD4EA</string>
-				<string>973B83502B6D29BC285C142FC6406CB9</string>
-				<string>847C8E840AD3BF08A59792AF1C16C286</string>
-				<string>970D6D8EF6BC121FE56E3A9143E36A4C</string>
-				<string>05EB7CD073D760D5C9645CDAE88BD5D4</string>
-				<string>2D2DBEF9A62F9B1920FE2920EAABA764</string>
-				<string>A9D670969BE1B9A3278C7F11702B91A9</string>
-				<string>33F5DA87742A4180953220FAD51AC29D</string>
-				<string>13EB2959657E57409557CA0116D79D31</string>
-				<string>4D581A8B36AAEE6F8E3819E7ADDD2DC7</string>
-				<string>70929AE569423345C04AA23F3F63B130</string>
-				<string>8FAF7505FCB3AC8D92792F23F17EDEDA</string>
-				<string>5BB0F9933BBCD21FC1E737406A66AD29</string>
-				<string>E0ABA15E9374E574C5C567DDD56CD886</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Alamofire</string>
+			<string>CSAnimationView.h</string>
 			<key>path</key>
-			<string>Alamofire</string>
+			<string>CanvasLibrary/CSAnimationView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FF638CC4A9134346D3A7831C880CF8CC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A982BD81713395696C81E3F64822C157</string>
+			<string>CC604F1503A9333D02EF3CEFE6067B32</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>

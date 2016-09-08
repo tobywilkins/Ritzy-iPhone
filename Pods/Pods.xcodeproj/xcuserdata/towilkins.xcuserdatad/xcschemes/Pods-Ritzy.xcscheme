@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A46680768F60C3DC6EEB08E9'
+               BlueprintIdentifier = '0FFF2331614AB48028972C99'
                BlueprintName = 'Pods-Ritzy'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Ritzy.framework'>
