@@ -9,7 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Canvas.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FacebookImagePicker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4FFBD38ECE610797C9D1EE434082DD83</key>
+		<key>05119498057A561D5B03C945DDC8F4C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42E0DEC093267CF25F6F9E861473B1D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C287881F9196C16E73C229E4CBBAE10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75A897A50BBAC3D997A7E865FE63AF65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -33,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>80CBCC225074FD190F9BEA2940592423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D0F2E5EA1B46A5D72FFD42B0B39DBBC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

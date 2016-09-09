@@ -10,33 +10,18 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 
-class FBLoginView: UIViewController, FBSDKLoginButtonDelegate {
-    
-    // Facebook Delegate Methods
-    
-    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        print("User Logged In")
-        
-        if ((error) != nil)
-        {
-            // Process error
-        }
-        else if result.isCancelled {
-            // Handle cancellations
-        }
-        else {
-            // If you ask for multiple permissions at once, you
-            // should check if specific permissions missing
-            if result.grantedPermissions.contains("email")
-            {
-                self.returnUserData()
 
-            }
-        }
-    }
+
+class FBLoginView: UIViewController {
     
-    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-        print("User Logged Out")
+    
+    func segueToPhoto() {
+        
+        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(1.5 * Double(NSEC_PER_SEC)))
+        dispatch_after(delayTime, dispatch_get_main_queue()) {
+            [unowned self] in
+            self.performSegueWithIdentifier("FBPhotoLoad", sender: self)
+        }
     }
     
     func returnUserData()
@@ -58,26 +43,66 @@ class FBLoginView: UIViewController, FBSDKLoginButtonDelegate {
         })
     }
 
+    @IBAction func FacebookContinuePressed(sender: AnyObject) {
+        
+        let fbLoginManager : FBSDKLoginManager = FBSDKLoginManager()
+        
+        fbLoginManager.logInWithReadPermissions(["public_profile", "email", "user_friends", "user_photos", "user_work_history"], handler: { (result, error) -> Void in
+            if (error == nil){
+                let fbloginresult : FBSDKLoginManagerLoginResult = result
+                if(fbloginresult.grantedPermissions.contains("email"))
+                {
+                    self.getFBUserData()
+                    self.segueToPhoto()
+                    
+                    fbLoginManager.logOut()
+                }
+            }
+        })
+        
+        
+    }
+    
+    
+    func getFBUserData(){
+        if((FBSDKAccessToken.currentAccessToken()) != nil){
+            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).startWithCompletionHandler({ (connection, result, error) -> Void in
+                if (error == nil){
+                    print(result)
+                }
+            })
+        }
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if (FBSDKAccessToken.currentAccessToken() != nil)
-        {
-            // User is already logged in, do work such as go to next view controller.
-        }
-        else
-        {
-            let loginView : FBSDKLoginButton = FBSDKLoginButton()
-            self.view.addSubview(loginView)
-            loginView.center = self.view.center
-            loginView.readPermissions = ["public_profile", "email", "user_friends", "user_photos", "user_work_history"]
-            loginView.delegate = self
+        NSNotificationCenter.defaultCenter().addObserver(self, selector:"handleFBSessionStateChangeWithNotification:", name: "SessionStateChangeNotification", object: nil)
+
+
+        
+            }
+    
+    func handleFBSessionStateChangeWithNotification(notification: NSNotification) {
+        if ((FBSDKAccessToken.currentAccessToken()) != nil) {
+            segueToPhoto()
         }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+
+        
+        if (FBSDKAccessToken.currentAccessToken() != nil)
+        {
+            segueToPhoto()
+        }
     }
     
 

@@ -85,9 +85,17 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Ritzy/Alamofire.framework"
+  install_framework "Pods-Ritzy/Bolts.framework"
   install_framework "Pods-Ritzy/Canvas.framework"
+  install_framework "Pods-Ritzy/FBSDKCoreKit.framework"
+  install_framework "Pods-Ritzy/FBSDKLoginKit.framework"
+  install_framework "Pods-Ritzy/FacebookImagePicker.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Ritzy/Alamofire.framework"
+  install_framework "Pods-Ritzy/Bolts.framework"
   install_framework "Pods-Ritzy/Canvas.framework"
+  install_framework "Pods-Ritzy/FBSDKCoreKit.framework"
+  install_framework "Pods-Ritzy/FBSDKLoginKit.framework"
+  install_framework "Pods-Ritzy/FacebookImagePicker.framework"
 fi

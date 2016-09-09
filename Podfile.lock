@@ -1,6 +1,19 @@
 PODS:
   - Alamofire (3.4.2)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
   - Canvas (0.1.2)
+  - FacebookImagePicker (2.0.11):
+    - FBSDKCoreKit (~> 4.11.0)
+    - FBSDKLoginKit (~> 4.11.0)
+  - FBSDKCoreKit (4.11.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.11.0):
+    - FBSDKCoreKit
   - Firebase (3.5.2):
     - Firebase/Core (= 3.5.2)
   - Firebase/Analytics (3.5.2):
@@ -22,11 +35,16 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 3.0)
   - Canvas (~> 0.1.2)
+  - FacebookImagePicker
   - Firebase
 
 SPEC CHECKSUMS:
   Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  FacebookImagePicker: 60bfada5c06dafa45c37460224f8958382098522
+  FBSDKCoreKit: 686ac982723a14ec9ddb85e2f81235d7706c891b
+  FBSDKLoginKit: bade9fc78277764149ccc5bfaadbf13c83175c6a
   Firebase: 94e63112efcad75226c0356a8f3032397b8547c9
   FirebaseAnalytics: d968d4d5f6aeb795cd64144337bcd233e530efc6
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
