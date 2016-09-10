@@ -54,9 +54,7 @@ class FBLoginView: UIViewController {
                 {
                     self.getFBUserData()
                     self.segueToPhoto()
-                    
-                    fbLoginManager.logOut()
-                }
+                    }
             }
         })
         
@@ -78,6 +76,7 @@ class FBLoginView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector:"handleFBSessionStateChangeWithNotification:", name: "SessionStateChangeNotification", object: nil)
 

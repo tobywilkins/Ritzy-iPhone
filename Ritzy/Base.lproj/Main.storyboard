@@ -97,7 +97,7 @@
         <!--Photo View Controller-->
         <scene sceneID="qYE-bb-hZc">
             <objects>
-                <viewController id="wQj-1X-b7O" customClass="FBPhotoViewController" customModule="Ritzy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Photos" id="wQj-1X-b7O" customClass="FBPhotoViewController" customModule="Ritzy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PyU-tn-t3m"/>
                         <viewControllerLayoutGuide type="bottom" id="Jkk-Ql-nqv"/>
