@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52617EDD1DAE5118004C547B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617ED91DAE5118004C547B /* Bolts.framework */; };
-		52617EDE1DAE5118004C547B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617EDA1DAE5118004C547B /* FBSDKCoreKit.framework */; };
-		52617EDF1DAE5118004C547B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617EDB1DAE5118004C547B /* FBSDKLoginKit.framework */; };
-		52617EE01DAE5118004C547B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617EDC1DAE5118004C547B /* FBSDKShareKit.framework */; };
+		525AC1FF1DAE562A007CC9A0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525AC1FA1DAE562A007CC9A0 /* Bolts.framework */; };
+		525AC2001DAE562A007CC9A0 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525AC1FB1DAE562A007CC9A0 /* FBNotifications.framework */; };
+		525AC2011DAE562A007CC9A0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525AC1FC1DAE562A007CC9A0 /* FBSDKCoreKit.framework */; };
+		525AC2021DAE562A007CC9A0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525AC1FD1DAE562A007CC9A0 /* FBSDKLoginKit.framework */; };
+		525AC2031DAE562A007CC9A0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525AC1FE1DAE562A007CC9A0 /* FBSDKShareKit.framework */; };
 		527C421B1D81C56900F2E020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C421A1D81C56900F2E020 /* AppDelegate.swift */; };
 		527C421D1D81C56900F2E020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C421C1D81C56900F2E020 /* ViewController.swift */; };
 		527C42201D81C56900F2E020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527C421E1D81C56900F2E020 /* Main.storyboard */; };
@@ -21,7 +22,6 @@
 		52C639FC1D8309D50001DBCE /* FBPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C639FB1D8309D50001DBCE /* FBPhotoViewController.swift */; };
 		52DD8DB21D82085400F0736D /* FBLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD8DB11D82085400F0736D /* FBLoginView.swift */; };
 		A9BC79C4D388CE812D1CA2A5 /* Pods_RitzyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88870CFF6175A41319DF50D9 /* Pods_RitzyTests.framework */; };
-		DCD520B0C20609A5DF47A071 /* Pods_Ritzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38BF2863636B456368509 /* Pods_Ritzy.framework */; };
 		FB7A304C54FF8C294381AE77 /* Pods_RitzyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E304E7B66238482F94583933 /* Pods_RitzyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +44,11 @@
 
 /* Begin PBXFileReference section */
 		3E4560C77B05771563F0733F /* Pods-RitzyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RitzyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RitzyTests/Pods-RitzyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		52617ED91DAE5118004C547B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Downloads/Bolts.framework; sourceTree = "<group>"; };
-		52617EDA1DAE5118004C547B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Downloads/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		52617EDB1DAE5118004C547B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Downloads/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		52617EDC1DAE5118004C547B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Downloads/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		525AC1FA1DAE562A007CC9A0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/FacebookSDKs-iOS-4.16.1/Bolts.framework"; sourceTree = "<group>"; };
+		525AC1FB1DAE562A007CC9A0 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBNotifications.framework; path = "../../Documents/FacebookSDKs-iOS-4.16.1/FBNotifications.framework"; sourceTree = "<group>"; };
+		525AC1FC1DAE562A007CC9A0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.16.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		525AC1FD1DAE562A007CC9A0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		525AC1FE1DAE562A007CC9A0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.16.1/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		527C42171D81C56900F2E020 /* Ritzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ritzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527C421A1D81C56900F2E020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527C421C1D81C56900F2E020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		8B83C47C5FEF10CC43A5D3F6 /* Pods-Ritzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.debug.xcconfig"; sourceTree = "<group>"; };
 		AFDF830BD28773B54AFC0DDD /* Pods-RitzyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RitzyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RitzyUITests/Pods-RitzyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD18FB646156A67ECF3FC270 /* Pods-Ritzy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.release.xcconfig"; sourceTree = "<group>"; };
-		D1A38BF2863636B456368509 /* Pods_Ritzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ritzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E304E7B66238482F94583933 /* Pods_RitzyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RitzyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,11 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD520B0C20609A5DF47A071 /* Pods_Ritzy.framework in Frameworks */,
-				52617EDE1DAE5118004C547B /* FBSDKCoreKit.framework in Frameworks */,
-				52617EE01DAE5118004C547B /* FBSDKShareKit.framework in Frameworks */,
-				52617EDF1DAE5118004C547B /* FBSDKLoginKit.framework in Frameworks */,
-				52617EDD1DAE5118004C547B /* Bolts.framework in Frameworks */,
+				525AC1FF1DAE562A007CC9A0 /* Bolts.framework in Frameworks */,
+				525AC2011DAE562A007CC9A0 /* FBSDKCoreKit.framework in Frameworks */,
+				525AC2031DAE562A007CC9A0 /* FBSDKShareKit.framework in Frameworks */,
+				525AC2021DAE562A007CC9A0 /* FBSDKLoginKit.framework in Frameworks */,
+				525AC2001DAE562A007CC9A0 /* FBNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,11 +178,11 @@
 		EB0628C2EB2BEA3183F74D6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1A38BF2863636B456368509 /* Pods_Ritzy.framework */,
-				52617ED91DAE5118004C547B /* Bolts.framework */,
-				52617EDA1DAE5118004C547B /* FBSDKCoreKit.framework */,
-				52617EDB1DAE5118004C547B /* FBSDKLoginKit.framework */,
-				52617EDC1DAE5118004C547B /* FBSDKShareKit.framework */,
+				525AC1FA1DAE562A007CC9A0 /* Bolts.framework */,
+				525AC1FB1DAE562A007CC9A0 /* FBNotifications.framework */,
+				525AC1FC1DAE562A007CC9A0 /* FBSDKCoreKit.framework */,
+				525AC1FD1DAE562A007CC9A0 /* FBSDKLoginKit.framework */,
+				525AC1FE1DAE562A007CC9A0 /* FBSDKShareKit.framework */,
 				88870CFF6175A41319DF50D9 /* Pods_RitzyTests.framework */,
 				E304E7B66238482F94583933 /* Pods_RitzyUITests.framework */,
 			);
