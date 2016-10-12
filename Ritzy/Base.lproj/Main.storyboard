@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Login View-->
@@ -14,21 +15,23 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lNE-g1-znA">
-                                <rect key="frame" x="105" y="20" width="391" height="561"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lNE-g1-znA">
+                                <frame key="frameInset" minX="105" minY="20" width="391" height="561"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ritzylogoblue" translatesAutoresizingMaskIntoConstraints="NO" id="JBg-GJ-PGz">
-                                        <rect key="frame" x="120" y="20" width="137" height="71"/>
+                                        <frame key="frameInset" minX="120" minY="20" width="137" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="aoh-WP-WUz">
-                                        <rect key="frame" x="33" y="145" width="325" height="57"/>
+                                        <frame key="frameInset" minX="33" minY="145" width="325" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Apply to join our community">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="25" name="GillSans"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -37,34 +40,38 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAC-tT-b0w">
-                                        <rect key="frame" x="20" y="403" width="351" height="49"/>
+                                        <frame key="frameInset" minX="20" minY="403" width="351" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="By continuing, you accept our Terms of Service and Pricacy Policy">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.44054487179487178" green="0.44054487179487178" blue="0.44054487179487178" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="NSColor" red="0.44054487179487178" green="0.44054487179487178" blue="0.44054487179487178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="17" name="GillSansMT"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
-                                        <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="highlightedColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jme-CU-D2f">
-                                        <rect key="frame" x="61" y="465" width="269" height="41"/>
+                                        <frame key="frameInset" minX="61" minY="465" width="269" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="facebookLogin"/>
                                         <connections>
                                             <action selector="FacebookContinuePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ISr-tD-BwX"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man with baloon" translatesAutoresizingMaskIntoConstraints="NO" id="wSF-P8-bNj">
-                                        <rect key="frame" x="115" y="246" width="110" height="116"/>
+                                        <frame key="frameInset" minX="115" minY="246" width="110" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-L0-Mfe">
-                                        <rect key="frame" x="78" y="520" width="236" height="21"/>
+                                        <frame key="frameInset" minX="78" minY="520" width="236" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="We never post anything to Facebook">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.34497195512820511" green="0.34497195512820511" blue="0.34497195512820511" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="NSColor" red="0.34497195512820511" green="0.34497195512820511" blue="0.34497195512820511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="17" name="GillSansMT"/>
                                                 </attributes>
                                             </fragment>
@@ -72,14 +79,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.97678046480000003" green="1" blue="0.98898342809999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.97678046480000003" green="1" blue="0.98898342809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="561" id="kBW-mc-3bo"/>
                                     <constraint firstAttribute="width" constant="391" id="kdv-LS-diN"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.97678046483103786" green="1" blue="0.98898342809103468" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.97678046483103786" green="1" blue="0.98898342809103468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lNE-g1-znA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YBQ-8m-17M"/>
                             <constraint firstItem="lNE-g1-znA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qNL-bF-SCj"/>
@@ -103,18 +110,18 @@
                         <viewControllerLayoutGuide type="bottom" id="Jkk-Ql-nqv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NXj-rS-sh9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CharacterPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="IWD-oq-VVm">
-                                <rect key="frame" x="203" y="209" width="194" height="182"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="CharacterPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="IWD-oq-VVm">
+                                <frame key="frameInset" minX="203" minY="209" width="194" height="182"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="194" id="Xvb-VN-PE3"/>
                                     <constraint firstAttribute="height" constant="182" id="bsd-ew-2xp"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="IWD-oq-VVm" firstAttribute="centerX" secondItem="NXj-rS-sh9" secondAttribute="centerX" id="1P0-DA-fVP"/>
                             <constraint firstItem="IWD-oq-VVm" firstAttribute="centerY" secondItem="NXj-rS-sh9" secondAttribute="centerY" id="jTi-5l-RBb"/>

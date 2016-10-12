@@ -3,7 +3,7 @@
 use_frameworks!
 
 target 'Ritzy' do
-    pod 'Alamofire', '~> 3.0'
+    pod 'Alamofire’
 	pod 'Canvas', '~> 0.1.2'
 	pod 'Firebase'
 	pod "FacebookImagePicker"

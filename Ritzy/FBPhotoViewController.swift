@@ -12,28 +12,28 @@ import FacebookImagePicker
 
 class FBPhotoViewController: UIViewController, OLFacebookImagePickerControllerDelegate, UINavigationControllerDelegate  {
     
-    @IBAction func ImageViewTapped(sender: AnyObject) {
+    @IBAction func ImageViewTapped(_ sender: AnyObject) {
         let picker : OLFacebookImagePickerController = OLFacebookImagePickerController()
         picker.delegate = self
         
         //    let picker = OLFacebookImagePickerController.init()
-        presentViewController(picker, animated: true, completion: nil)
+        present(picker, animated: true, completion: nil)
         
     }
     
     // Facebook Delegate Methods
     
-    func facebookImagePickerDidCancelPickingImages(imagePicker: OLFacebookImagePickerController!) {
-        dismissViewControllerAnimated(true, completion: nil)
+    func facebookImagePickerDidCancelPickingImages(_ imagePicker: OLFacebookImagePickerController!) {
+        dismiss(animated: true, completion: nil)
     }
     
-    func facebookImagePicker(imagePicker: OLFacebookImagePickerController!, didFailWithError error: NSError!) {
-        dismissViewControllerAnimated(true, completion: nil)
+    func facebookImagePicker(_ imagePicker: OLFacebookImagePickerController!, didFailWithError error: NSError!) {
+        dismiss(animated: true, completion: nil)
         
     }
     
-    func facebookImagePicker(imagePicker: OLFacebookImagePickerController!, didFinishPickingImages images: [AnyObject]!) {
-        dismissViewControllerAnimated(true, completion: nil)
+    func facebookImagePicker(_ imagePicker: OLFacebookImagePickerController!, didFinishPickingImages images: [AnyObject]!) {
+        dismiss(animated: true, completion: nil)
     }
 
 }

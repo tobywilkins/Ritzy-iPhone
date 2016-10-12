@@ -39,25 +39,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-RitzyTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RitzyUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05119498057A561D5B03C945DDC8F4C4</key>
+		<key>4958E196993A5481A4115BB0FC440FF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42E0DEC093267CF25F6F9E861473B1D3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6C287881F9196C16E73C229E4CBBAE10</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>75A897A50BBAC3D997A7E865FE63AF65</key>
+		<key>5B7271181CA9F999D0FB3570854F9B21</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -73,6 +73,26 @@
 			<true/>
 		</dict>
 		<key>9D0F2E5EA1B46A5D72FFD42B0B39DBBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4498345D8A31A7610747349605A74AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE3B7A643385CF035A9CA1E66CDF69D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F96FB25D7C192A86B5E0F66CD2EECACF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFF030056CFEA4FA14B3BE974C5E7A51</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -17,17 +17,17 @@ class FBLoginView: UIViewController {
     
     func segueToPhoto() {
         
-        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(1.5 * Double(NSEC_PER_SEC)))
-        dispatch_after(delayTime, dispatch_get_main_queue()) {
+        let delayTime = DispatchTime.now() + Double(Int64(1.5 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
+        DispatchQueue.main.asyncAfter(deadline: delayTime) {
             [unowned self] in
-            self.performSegueWithIdentifier("FBPhotoLoad", sender: self)
+            self.performSegue(withIdentifier: "FBPhotoLoad", sender: self)
         }
     }
     
     func returnUserData()
     {
         let graphRequest : FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: nil)
-        graphRequest.startWithCompletionHandler({ (connection, result, error) -> Void in
+        graphRequest.start(completionHandler: { (connection, result, error) -> Void in
             
             if ((error) != nil)
             {
@@ -37,19 +37,19 @@ class FBLoginView: UIViewController {
             else
             {
                 print("fetched user: \(result)")
-                let userName : NSString = result.valueForKey("name") as! NSString
+                let userName : NSString = result.value(forKey: "name") as! NSString
                 print("User Name is: \(userName)")
             }
         })
     }
 
-    @IBAction func FacebookContinuePressed(sender: AnyObject) {
+    @IBAction func FacebookContinuePressed(_ sender: AnyObject) {
         
         let fbLoginManager : FBSDKLoginManager = FBSDKLoginManager()
         
-        fbLoginManager.logInWithReadPermissions(["public_profile", "email", "user_friends", "user_photos", "user_work_history"], handler: { (result, error) -> Void in
+        fbLoginManager.logIn(withReadPermissions: ["public_profile", "email", "user_friends", "user_photos", "user_work_history"], handler: { (result, error) -> Void in
             if (error == nil){
-                let fbloginresult : FBSDKLoginManagerLoginResult = result
+                let fbloginresult : FBSDKLoginManagerLoginResult = result!
                 if(fbloginresult.grantedPermissions.contains("email"))
                 {
                     self.getFBUserData()
@@ -63,8 +63,8 @@ class FBLoginView: UIViewController {
     
     
     func getFBUserData(){
-        if((FBSDKAccessToken.currentAccessToken()) != nil){
-            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).startWithCompletionHandler({ (connection, result, error) -> Void in
+        if((FBSDKAccessToken.current()) != nil){
+            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
                 if (error == nil){
                     print(result)
                 }
@@ -78,14 +78,14 @@ class FBLoginView: UIViewController {
         super.viewDidLoad()
 
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector:"handleFBSessionStateChangeWithNotification:", name: "SessionStateChangeNotification", object: nil)
+        NotificationCenter.default.addObserver(self, selector:#selector(FBLoginView.handleFBSessionStateChangeWithNotification(_:)), name: NSNotification.Name(rawValue: "SessionStateChangeNotification"), object: nil)
 
 
         
             }
     
-    func handleFBSessionStateChangeWithNotification(notification: NSNotification) {
-        if ((FBSDKAccessToken.currentAccessToken()) != nil) {
+    func handleFBSessionStateChangeWithNotification(_ notification: Notification) {
+        if ((FBSDKAccessToken.current()) != nil) {
             segueToPhoto()
         }
     }
@@ -95,10 +95,10 @@ class FBLoginView: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
 
         
-        if (FBSDKAccessToken.currentAccessToken() != nil)
+        if (FBSDKAccessToken.current() != nil)
         {
             segueToPhoto()
         }

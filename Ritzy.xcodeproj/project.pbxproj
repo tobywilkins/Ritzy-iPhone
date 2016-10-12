@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52617EDD1DAE5118004C547B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617ED91DAE5118004C547B /* Bolts.framework */; };
+		52617EDE1DAE5118004C547B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617EDA1DAE5118004C547B /* FBSDKCoreKit.framework */; };
+		52617EDF1DAE5118004C547B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617EDB1DAE5118004C547B /* FBSDKLoginKit.framework */; };
+		52617EE01DAE5118004C547B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617EDC1DAE5118004C547B /* FBSDKShareKit.framework */; };
 		527C421B1D81C56900F2E020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C421A1D81C56900F2E020 /* AppDelegate.swift */; };
 		527C421D1D81C56900F2E020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C421C1D81C56900F2E020 /* ViewController.swift */; };
 		527C42201D81C56900F2E020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527C421E1D81C56900F2E020 /* Main.storyboard */; };
@@ -15,12 +19,10 @@
 		527C42301D81C56A00F2E020 /* RitzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C422F1D81C56A00F2E020 /* RitzyTests.swift */; };
 		527C423B1D81C56A00F2E020 /* RitzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C423A1D81C56A00F2E020 /* RitzyUITests.swift */; };
 		52C639FC1D8309D50001DBCE /* FBPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C639FB1D8309D50001DBCE /* FBPhotoViewController.swift */; };
-		52DD8DAE1D8200CC00F0736D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DAB1D8200CC00F0736D /* FBSDKCoreKit.framework */; };
-		52DD8DAF1D8200CC00F0736D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DAC1D8200CC00F0736D /* FBSDKLoginKit.framework */; };
-		52DD8DB01D8200CC00F0736D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DAD1D8200CC00F0736D /* FBSDKShareKit.framework */; };
 		52DD8DB21D82085400F0736D /* FBLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD8DB11D82085400F0736D /* FBLoginView.swift */; };
-		52DD8DB41D820A3000F0736D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD8DB31D820A3000F0736D /* Bolts.framework */; };
-		965BFFF693F3A3C4B3C8AB7A /* Pods_Ritzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2782FDFFA4416A4DFE44B7 /* Pods_Ritzy.framework */; };
+		A9BC79C4D388CE812D1CA2A5 /* Pods_RitzyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88870CFF6175A41319DF50D9 /* Pods_RitzyTests.framework */; };
+		DCD520B0C20609A5DF47A071 /* Pods_Ritzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A38BF2863636B456368509 /* Pods_Ritzy.framework */; };
+		FB7A304C54FF8C294381AE77 /* Pods_RitzyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E304E7B66238482F94583933 /* Pods_RitzyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E4560C77B05771563F0733F /* Pods-RitzyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RitzyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RitzyTests/Pods-RitzyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52617ED91DAE5118004C547B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Downloads/Bolts.framework; sourceTree = "<group>"; };
+		52617EDA1DAE5118004C547B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Downloads/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		52617EDB1DAE5118004C547B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Downloads/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		52617EDC1DAE5118004C547B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Downloads/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		527C42171D81C56900F2E020 /* Ritzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ritzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527C421A1D81C56900F2E020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527C421C1D81C56900F2E020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,14 +63,15 @@
 		527C423C1D81C56A00F2E020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C639F21D82194C0001DBCE /* Ritzy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ritzy-Bridging-Header.h"; sourceTree = "<group>"; };
 		52C639FB1D8309D50001DBCE /* FBPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBPhotoViewController.swift; sourceTree = "<group>"; };
-		52DD8DAB1D8200CC00F0736D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.15.0 (1)/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		52DD8DAC1D8200CC00F0736D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.15.0 (1)/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		52DD8DAD1D8200CC00F0736D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.15.0 (1)/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		52DD8DB11D82085400F0736D /* FBLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginView.swift; sourceTree = "<group>"; };
-		52DD8DB31D820A3000F0736D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
-		BC444A4ABCE35CD5A054804E /* Pods-Ritzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.debug.xcconfig"; sourceTree = "<group>"; };
-		E4C99D95FE6B10A1B65864C1 /* Pods-Ritzy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.release.xcconfig"; sourceTree = "<group>"; };
-		FC2782FDFFA4416A4DFE44B7 /* Pods_Ritzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ritzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E31A22094779E405119E6C8 /* Pods-RitzyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RitzyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RitzyTests/Pods-RitzyTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1FE538305198AEC697197F /* Pods-RitzyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RitzyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RitzyUITests/Pods-RitzyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88870CFF6175A41319DF50D9 /* Pods_RitzyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RitzyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B83C47C5FEF10CC43A5D3F6 /* Pods-Ritzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.debug.xcconfig"; sourceTree = "<group>"; };
+		AFDF830BD28773B54AFC0DDD /* Pods-RitzyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RitzyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RitzyUITests/Pods-RitzyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD18FB646156A67ECF3FC270 /* Pods-Ritzy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ritzy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy.release.xcconfig"; sourceTree = "<group>"; };
+		D1A38BF2863636B456368509 /* Pods_Ritzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ritzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E304E7B66238482F94583933 /* Pods_RitzyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RitzyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DD8DB41D820A3000F0736D /* Bolts.framework in Frameworks */,
-				52DD8DB01D8200CC00F0736D /* FBSDKShareKit.framework in Frameworks */,
-				965BFFF693F3A3C4B3C8AB7A /* Pods_Ritzy.framework in Frameworks */,
-				52DD8DAE1D8200CC00F0736D /* FBSDKCoreKit.framework in Frameworks */,
-				52DD8DAF1D8200CC00F0736D /* FBSDKLoginKit.framework in Frameworks */,
+				DCD520B0C20609A5DF47A071 /* Pods_Ritzy.framework in Frameworks */,
+				52617EDE1DAE5118004C547B /* FBSDKCoreKit.framework in Frameworks */,
+				52617EE01DAE5118004C547B /* FBSDKShareKit.framework in Frameworks */,
+				52617EDF1DAE5118004C547B /* FBSDKLoginKit.framework in Frameworks */,
+				52617EDD1DAE5118004C547B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BC79C4D388CE812D1CA2A5 /* Pods_RitzyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7A304C54FF8C294381AE77 /* Pods_RitzyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +113,8 @@
 				527C422E1D81C56A00F2E020 /* RitzyTests */,
 				527C42391D81C56A00F2E020 /* RitzyUITests */,
 				527C42181D81C56900F2E020 /* Products */,
-				C5372FCC6A035A5BA4C345F1 /* Pods */,
 				EB0628C2EB2BEA3183F74D6E /* Frameworks */,
+				A9ED9229CC12515A692103B4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,11 +162,15 @@
 			path = RitzyUITests;
 			sourceTree = "<group>";
 		};
-		C5372FCC6A035A5BA4C345F1 /* Pods */ = {
+		A9ED9229CC12515A692103B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC444A4ABCE35CD5A054804E /* Pods-Ritzy.debug.xcconfig */,
-				E4C99D95FE6B10A1B65864C1 /* Pods-Ritzy.release.xcconfig */,
+				8B83C47C5FEF10CC43A5D3F6 /* Pods-Ritzy.debug.xcconfig */,
+				CD18FB646156A67ECF3FC270 /* Pods-Ritzy.release.xcconfig */,
+				3E4560C77B05771563F0733F /* Pods-RitzyTests.debug.xcconfig */,
+				6E31A22094779E405119E6C8 /* Pods-RitzyTests.release.xcconfig */,
+				AFDF830BD28773B54AFC0DDD /* Pods-RitzyUITests.debug.xcconfig */,
+				7F1FE538305198AEC697197F /* Pods-RitzyUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -164,11 +178,13 @@
 		EB0628C2EB2BEA3183F74D6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52DD8DB31D820A3000F0736D /* Bolts.framework */,
-				52DD8DAB1D8200CC00F0736D /* FBSDKCoreKit.framework */,
-				52DD8DAC1D8200CC00F0736D /* FBSDKLoginKit.framework */,
-				52DD8DAD1D8200CC00F0736D /* FBSDKShareKit.framework */,
-				FC2782FDFFA4416A4DFE44B7 /* Pods_Ritzy.framework */,
+				D1A38BF2863636B456368509 /* Pods_Ritzy.framework */,
+				52617ED91DAE5118004C547B /* Bolts.framework */,
+				52617EDA1DAE5118004C547B /* FBSDKCoreKit.framework */,
+				52617EDB1DAE5118004C547B /* FBSDKLoginKit.framework */,
+				52617EDC1DAE5118004C547B /* FBSDKShareKit.framework */,
+				88870CFF6175A41319DF50D9 /* Pods_RitzyTests.framework */,
+				E304E7B66238482F94583933 /* Pods_RitzyUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,12 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527C423F1D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "Ritzy" */;
 			buildPhases = (
-				081F3955DC2BB7FFEF508FAB /* Check Pods Manifest.lock */,
+				08BA22C4C32C9516027548B7 /* [CP] Check Pods Manifest.lock */,
 				527C42131D81C56900F2E020 /* Sources */,
 				527C42141D81C56900F2E020 /* Frameworks */,
 				527C42151D81C56900F2E020 /* Resources */,
-				E3D0F578A692C8332E89F550 /* Embed Pods Frameworks */,
-				2AD82183EE5E2AAA8778BCF9 /* Copy Pods Resources */,
+				EB1699E2FB4F5FBF58279373 /* [CP] Embed Pods Frameworks */,
+				6951CAA838926F6767A61966 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527C42421D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "RitzyTests" */;
 			buildPhases = (
+				016061328B07D3B41E848CE0 /* [CP] Check Pods Manifest.lock */,
 				527C42271D81C56A00F2E020 /* Sources */,
 				527C42281D81C56A00F2E020 /* Frameworks */,
 				527C42291D81C56A00F2E020 /* Resources */,
+				370E853205688B6503A3F847 /* [CP] Embed Pods Frameworks */,
+				4CB01DCA170E4FEB14512016 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527C42451D81C56A00F2E020 /* Build configuration list for PBXNativeTarget "RitzyUITests" */;
 			buildPhases = (
+				BFDDDCEEA11A8845D7A8260B /* [CP] Check Pods Manifest.lock */,
 				527C42321D81C56A00F2E020 /* Sources */,
 				527C42331D81C56A00F2E020 /* Frameworks */,
 				527C42341D81C56A00F2E020 /* Resources */,
+				93B93D87EE2FB7479FD32A4B /* [CP] Copy Pods Resources */,
+				7CCD59CEF4B96C252B8CB713 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,13 +266,16 @@
 				TargetAttributes = {
 					527C42161D81C56900F2E020 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					527C422A1D81C56A00F2E020 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 527C42161D81C56900F2E020;
 					};
 					527C42351D81C56A00F2E020 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 527C42161D81C56900F2E020;
 					};
 				};
@@ -303,29 +328,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		081F3955DC2BB7FFEF508FAB /* Check Pods Manifest.lock */ = {
+		016061328B07D3B41E848CE0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2AD82183EE5E2AAA8778BCF9 /* Copy Pods Resources */ = {
+		08BA22C4C32C9516027548B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		370E853205688B6503A3F847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RitzyTests/Pods-RitzyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB01DCA170E4FEB14512016 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RitzyTests/Pods-RitzyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6951CAA838926F6767A61966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,14 +403,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ritzy/Pods-Ritzy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E3D0F578A692C8332E89F550 /* Embed Pods Frameworks */ = {
+		7CCD59CEF4B96C252B8CB713 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RitzyUITests/Pods-RitzyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B93D87EE2FB7479FD32A4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RitzyUITests/Pods-RitzyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDDDCEEA11A8845D7A8260B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1699E2FB4F5FBF58279373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -462,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -498,7 +615,7 @@
 		};
 		527C42401D81C56A00F2E020 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC444A4ABCE35CD5A054804E /* Pods-Ritzy.debug.xcconfig */;
+			baseConfigurationReference = 8B83C47C5FEF10CC43A5D3F6 /* Pods-Ritzy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -517,12 +634,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Ritzy/Ritzy-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		527C42411D81C56A00F2E020 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4C99D95FE6B10A1B65864C1 /* Pods-Ritzy.release.xcconfig */;
+			baseConfigurationReference = CD18FB646156A67ECF3FC270 /* Pods-Ritzy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -540,51 +658,60 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Apparently.Ritzy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Ritzy/Ritzy-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		527C42431D81C56A00F2E020 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4560C77B05771563F0733F /* Pods-RitzyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RitzyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ritzy.app/Ritzy";
 			};
 			name = Debug;
 		};
 		527C42441D81C56A00F2E020 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E31A22094779E405119E6C8 /* Pods-RitzyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RitzyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ritzy.app/Ritzy";
 			};
 			name = Release;
 		};
 		527C42461D81C56A00F2E020 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDF830BD28773B54AFC0DDD /* Pods-RitzyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RitzyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = Ritzy;
 			};
 			name = Debug;
 		};
 		527C42471D81C56A00F2E020 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1FE538305198AEC697197F /* Pods-RitzyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RitzyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apparently.RitzyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = Ritzy;
 			};
 			name = Release;
