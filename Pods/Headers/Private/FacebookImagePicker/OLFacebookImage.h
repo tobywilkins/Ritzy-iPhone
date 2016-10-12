@@ -1,1 +1,0 @@
-../../../FacebookImagePicker/FacebookImagePicker/OLFacebookImage.h

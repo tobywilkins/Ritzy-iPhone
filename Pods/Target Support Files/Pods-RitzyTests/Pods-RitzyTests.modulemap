@@ -1,0 +1,6 @@
+framework module Pods_RitzyTests {
+  umbrella header "Pods-RitzyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
